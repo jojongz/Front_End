@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(127, 210, 216);
+    font-family: serif;
+    color: black;
+}
+h1{
+    color: red;
+}
+p.first{color: blueviolet;}
+p.second{color: blue;}
