@@ -1,0 +1,22 @@
+<!-- DOM 속성과 태그 속성 이해 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DOM 속성과 태그 속성 이해</title>
+</head>
+<body>
+    <div id = "div1" class = "div-class">DIV 태그</div>
+    <input id = "input1" type = "text" value = "jay">
+
+    <script>
+        const div1El = document.getElementById('div1');
+        const input1 = document.getElementById('input1'); 
+
+        console.log(div1El.hasAttribute('id'));
+        console.log(div1El.getAttribute('id'));
+        console.log(div1El.id);
+
+    </script>
+</body>
+</html>
